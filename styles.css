@@ -9,52 +9,98 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+header {
+  text-align: center;
+  color: #2B4E80;
+  font-family: 'Life Savers', serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 main {
   display: flex;
   justify-content: center;
   min-height: 400px;
-
-}
-
-header {
-  text-align: center;
-  color: #2B4E80;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .left-box {
   background-color: #E6ECF4;
-    padding: 5px 10px 5px 10px;
-  /* width: 400px;
-  height: 400px; */
+  padding: 10px 15px 10px 15px;
+  /* min-height: 100%; */
+  width: 400px;
+  height: 400px;
 }
 
 .right-box {
-  /* width: 400px;
-  height: 400px; */
+  /* min-height: 300px; */
+  width: 400px;
+  height: 400px;
+  padding: 10px 15px 0px 15px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
 
+.woody-image {
+  max-width: 100%;
+  max-height: 400px;
+  margin-left: 80px
 }
 
 form {
   display: flex;
   flex-direction: column;
+  min-height: 30%
+}
+
+.form-line {
+  text-align: center;
+  min-height: 50px;
+  border: none;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .get-answer-button {
   background-color: #2B4E80;
   color: white;
+  margin-top: 5px;
+}
+
+.middle-right-container {
+  display: flex;
+  justify-content: center;
+  min-height: 40%;
+  padding-top: 15%;
+}
+
+.eight-ball-image {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .clear-button-container {
   display: flex;
   justify-content: flex-end;
+  margin-top: 10px;
 }
 
 .clear-button {
-
+  color: white;
+  background-color: #D0CDCD;
+  border: none;
+  min-height: 25px;
+  min-width: 65px;
+  font-family: 'Open Sans', sans-serif;
 }
 
+.clear-button:hover {
+  background-color: #1C3455;
+}
 
-
+.clear-button-active {
+  background-color: #DE4841;
+}
 
 .hidden {
   display: none;
