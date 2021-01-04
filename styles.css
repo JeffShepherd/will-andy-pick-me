@@ -1,6 +1,5 @@
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Life Savers', serif; */
-
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
@@ -10,3 +9,53 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+
+}
+
+header {
+  text-align: center;
+  color: #2B4E80;
+}
+
+.left-box {
+  background-color: #E6ECF4;
+    padding: 5px 10px 5px 10px;
+  /* width: 400px;
+  height: 400px; */
+}
+
+.right-box {
+  /* width: 400px;
+  height: 400px; */
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.get-answer-button {
+  background-color: #2B4E80;
+  color: white;
+}
+
+.clear-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clear-button {
+
+}
+
+
+
+
+.hidden {
+  display: none;
+}
